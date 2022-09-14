@@ -9,7 +9,14 @@
   flex-direction: row;
 }
 
+#evaluation-form {
+  display: flex;
+  width: 675px;
+} 
 
+main {
+  display: flex;
+} 
 /*
 .trybewarts-header-logo {
 
