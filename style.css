@@ -13,7 +13,7 @@
   display: flex;
   width: 675px;
   flex-direction: column;
-} 
+}
 
 main {
   display: flex;
@@ -24,7 +24,7 @@ main {
 }
 
 .input-position {
-  display: flex ;
+  display: flex;
   flex-direction: row;
 }
 
@@ -46,7 +46,7 @@ main {
 }
 
 #trybewarts-header-title {
-  
+
 }
 
 #input-email {
