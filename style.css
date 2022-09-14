@@ -18,6 +18,11 @@
 main {
   display: flex;
 }
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
 /*
 .trybewarts-header-logo {
 
