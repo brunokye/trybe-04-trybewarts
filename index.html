@@ -22,15 +22,27 @@
     </header>
     <main>
         <form id="evaluation-form" action="">
-            <input id="input-name" type="text" name="name" placeholder="Nome">
-            <input id="input-lastname" type="text" name="lastname" placeholder="Sobrenome">
-            <input id="input-email" type="email" name="email" placeholder="Email">
-            <select name="House" id="house">
-                <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-                <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-                <option id="corvinode-house" value="Corvinode">Corvinode</option>
-                <option id="pytherina-house" value="Pytherina">Pytherina</option>
-            </select>
+            <div class="input-position">
+                <input id="input-name" type="text" name="name" placeholder="Nome">
+                <input id="input-lastname" type="text" name="lastname" placeholder="Sobrenome">
+            </div>
+            <div class="input-position">
+                <input id="input-email" type="email" name="email" placeholder="Email">
+                <select name="House" id="house">
+                    <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                    <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                    <option id="pytherina-house" value="Pytherina">Pytherina</option>
+                </select>
+            </div>
+            
+            <label id="label-family" >Qual sua família?</label>
+            <label for="frontend"><input id="frontend" type="radio" name="family" value="Frontend">Família Frontend</label>
+            <label for="backend"><input id="backend" type="radio" name="family" value="Backend">Família Backend</label>
+            <label for="fullstack"><input id="fullstack" type="radio" name="family" value="FullStack">Família FullStack</label>
+            
+            
+
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo">
 

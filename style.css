@@ -23,12 +23,16 @@ main {
   height: 500px;
 }
 
+.input-position {
+  display: flex ;
+  flex-direction: row;
+}
 /*
 .trybewarts-header-logo {
 
 }
 #input-name {
-  
+
 }
 
 #input-password {
