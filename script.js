@@ -1,6 +1,6 @@
 const buttonLogin = document.getElementById('button-login');
-const inputEmail = document.getElementById('input-email');
-const inputPassword = document.getElementById('input-password');
+const inputEmail = document.getElementById('login-email');
+const inputPassword = document.getElementById('login-password');
 
 function validateLogin() {
   if (inputEmail.value !== 'tryber@teste.com' || inputPassword.value !== '123456') {
