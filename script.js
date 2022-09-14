@@ -31,5 +31,29 @@ function calculateCounter() {
   characterCounter.textContent = counter;
 }
 
+/*
+function displayInfo() {
+  const clearScreen = document.getElementById('evaluation-form');
+  const printScreen = document.getElementById('form-data');
+  const inputName = document.getElementById('input-name').value;
+  const inputLast = document.getElementById('input-lastname').value;
+  const testEmail = document.getElementById('input-email').value;
+  const inputSelect = document.getElementById('house').value;
+
+  clearScreen.style.visibility = 'hidden';
+
+  let newName = document.getElementById('new-name').value;
+  let newEmail = document.getElementById('new-email').value;
+  let newHouse = document.getElementById('new-house').value;
+
+  newName = `Nome: ${inputName}${inputLast}`;
+  newEmail = `Email: ${testEmail}`;
+  newHouse = `Casa: ${inputSelect}`;
+
+  printScreen.style.visibility = 'visible';
+}
+*/
+
 buttonLogin.addEventListener('click', validateLogin);
+// buttonSubmit.addEventListener('click', displayInfo);
 textArea.addEventListener('input', calculateCounter);

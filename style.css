@@ -9,14 +9,22 @@
   flex-direction: row;
 }
 
+main {
+  display: flex;
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  visibility: visible;
 }
 
-main {
+#form-data {
   display: flex;
+  width: 675px;
+  flex-direction: column;
+  visibility: hidden;
 }
 
 #trybewarts-forms-logo {
@@ -27,29 +35,3 @@ main {
   display: flex;
   flex-direction: row;
 }
-
-/*
-.trybewarts-header-logo {
-
-}
-
-#label-family {
-
-}
-
-#input-name {
-
-}
-
-#input-password {
-
-}
-
-#trybewarts-header-title {
-
-}
-
-#input-email {
-
-}
-*/
