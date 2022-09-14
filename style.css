@@ -3,5 +3,16 @@
   display: flex;
 } 
 .trybewarts-header-logo {
+
+}
+#input-password {
   
+}
+#input-email {
+
+}
+.form-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
