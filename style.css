@@ -17,15 +17,16 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-  visibility: visible;
 }
 
+/*
 #form-data {
   display: flex;
   width: 675px;
   flex-direction: column;
   visibility: hidden;
 }
+*/
 
 #trybewarts-forms-logo {
   height: 500px;
