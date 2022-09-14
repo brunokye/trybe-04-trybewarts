@@ -1,13 +1,14 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  align-items: center;
 }
 
 .trybewarts-login {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
+
 
 /*
 .trybewarts-header-logo {
@@ -16,6 +17,10 @@
 
 #input-password {
 
+}
+
+#trybewarts-header-title {
+  
 }
 
 #input-email {
