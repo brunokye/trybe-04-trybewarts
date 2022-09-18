@@ -4,6 +4,10 @@
   font-family: monospace;
 }
 
+body {
+  background-color: rgb(239, 239, 239);
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -29,14 +33,14 @@
 
 #login-email , #login-password {
   padding: 10px;
-  border: 1px solid black;
+  border: none;
   border-radius: 5px;
   margin: 5px;
 }
 
 #button-login {
   padding: 10px;
-  border: 1px solid black;
+  border: none;
   border-radius: 5px;
   margin: 5px;
   background-color: rgb(78, 44, 131);
@@ -46,6 +50,7 @@
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 20px;
 }
 
@@ -53,6 +58,79 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+.input-position {
+  display: flex;
+  flex-direction: row;
+}
+
+#input-name , #input-lastname , #input-email , #house {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin: 5px;
+  background-color: white;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#radio-checkbox {
+  display: flex;
+  flex-direction: row;
+}
+
+#container-radio , #container-checkbox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  line-height: 2;
+}
+
+#container-checkbox {
+  flex-wrap: wrap;
+}
+
+#frontend , #backend , #fullstack , .subject , .rate , #agreement {
+  vertical-align: middle;
+}
+
+#container-rate {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  margin-bottom: 5px;
+}
+
+#counter {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+}
+
+#container-terms {
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(78, 44, 131);
+  color: white;
+}
+
+#submit-btn:disabled {
+  padding: 9px;
+  border: 1px solid grey;
+  background-color: rgb(229, 229, 229);
+  color: grey;
 }
 
 /*
@@ -66,9 +144,4 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
-}
-
-.input-position {
-  display: flex;
-  flex-direction: row;
 }
