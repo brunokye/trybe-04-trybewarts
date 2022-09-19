@@ -60,6 +60,12 @@ main {
   flex-direction: column;
 }
 
+#main-title {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+}
+
 .input-position {
   display: flex;
   flex-direction: row;
@@ -132,15 +138,6 @@ hr {
 #trybewarts-forms-logo {
   height: 500px;
 }
-
-/*
-#form-data {
-  display: flex;
-  width: 675px;
-  flex-direction: column;
-  visibility: hidden;
-}
-*/
 
 footer {
   position: fixed;
