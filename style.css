@@ -129,6 +129,10 @@ hr {
   color: grey;
 }
 
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
 /*
 #form-data {
   display: flex;
@@ -139,13 +143,13 @@ hr {
 */
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   padding: 15px;
   text-align: center;
   background-color: rgb(60, 64, 74);
   color: white;
   font-size: 15px;
-}
-
-#trybewarts-forms-logo {
-  height: 500px;
 }
