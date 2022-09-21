@@ -135,6 +135,16 @@ hr {
   color: grey;
 }
 
+#form-data {
+  display: none;
+  width: 675px;
+  flex-direction: column;
+}
+
+#go-back {
+  margin-top: 20px;
+  width: 10%;
+}
 #trybewarts-forms-logo {
   height: 500px;
 }

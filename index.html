@@ -24,7 +24,7 @@
     <main>
         <form id="evaluation-form" action="">
             <h1 id="main-title">Formulário de Avaliação</h1>
-            
+
             <div class="input-position">
                 <input id="input-name" type="text" name="name" placeholder="Nome">
                 <input id="input-lastname" type="text" name="lastname" placeholder="Sobrenome">
@@ -45,9 +45,9 @@
             <div id="radio-checkbox">
                 <div id="container-radio">
                     <label id="label-family" >Qual sua família?</label>
-                    <label for="frontend"><input id="frontend" type="radio" name="family" value="Frontend"> Família Frontend</label>
-                    <label for="backend"><input id="backend" type="radio" name="family" value="Backend"> Família Backend</label>
-                    <label for="fullstack"><input id="fullstack" type="radio" name="family" value="FullStack"> Família FullStack</label>
+                    <label for="frontend"><input class="family" id="frontend" type="radio" name="family" value="Frontend"> Família Frontend</label>
+                    <label for="backend"><input class="family" id="backend" type="radio" name="family" value="Backend"> Família Backend</label>
+                    <label for="fullstack"><input class="family" id="fullstack" type="radio" name="family" value="FullStack"> Família FullStack</label>
                 </div>
 
                 <div id="container-checkbox">
@@ -89,6 +89,18 @@
             <button id="submit-btn" type="submit" disabled="true">Enviar</button>
         </form>
         
+        <div id="form-data">
+            <p id="new-name"></p>
+            <p id="new-email"></p>
+            <p id="new-house"></p>
+            <p id="new-family"></p>
+            <p id="new-subject"></p>
+            <p id="new-rate"></p>
+            <p id="new-obs"></p>
+
+            <button id="go-back" type="submit">Voltar</button>
+        </div>
+
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo">
     </main>
 
